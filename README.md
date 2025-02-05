@@ -1,4 +1,4 @@
-# Redit Client
+# Reddit Client
 
 ![Project Banner or Screenshot (Optional)](path-to-image.png)
 
