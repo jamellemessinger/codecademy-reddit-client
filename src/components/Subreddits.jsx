@@ -3,7 +3,7 @@ import css from '../css/Subreddits.module.css';
 
 export default function Subreddits() {
   return (
-    <div className={css.subreddits}>
+    <div className={css.subreddits} id='bottom'>
       <h2>Subreddits</h2>
       <ul>
         <li>Subreddit 1</li>

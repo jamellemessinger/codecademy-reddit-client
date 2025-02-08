@@ -19,3 +19,11 @@
   align-items: center;
   gap: 0.5rem;
 }
+
+h1 {
+  font-size: 1.5rem;
+}
+
+span {
+  color: lightcoral;
+}

@@ -1,0 +1,20 @@
+.navToTop {
+  position: fixed;
+  bottom: 4rem;
+  right: 2rem;
+  z-index: 10;
+  background-color: lightcoral;
+  border-radius: 50% 50% 0 0;
+  width: 3rem;
+}
+
+.navToBottom {
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  z-index: 10;
+  background-color: lightcoral;
+  border-radius: 0 0 50% 50%;
+  width: 3rem;
+}
+
