@@ -1,4 +1,4 @@
-import './App.css';
+import './css/App.css';
 import React from 'react';
 import NavBar from './components/NavBar';
 import Subreddits from './components/Subreddits';
@@ -8,8 +8,10 @@ function App() {
   return (
     <>
       <NavBar />
-      <Cards />
-      <Subreddits />
+      <div className="container">
+        <Cards />
+        <Subreddits />
+      </div>
     </>
   );
 }

@@ -1,8 +1,9 @@
 import React from 'react';
+import css from '../css/Subreddits.module.css';
 
 export default function Subreddits() {
   return (
-    <div className="subreddits">
+    <div className={css.subreddits}>
       <h2>Subreddits</h2>
       <ul>
         <li>Subreddit 1</li>
