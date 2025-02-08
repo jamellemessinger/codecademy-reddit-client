@@ -1,6 +1,6 @@
 import './css/App.css';
 import React from 'react';
-import NavBar from './components/NavBar';
+import NavBar from './components/nav/NavBar';
 import Subreddits from './components/Subreddits';
 import Cards from './components/cards/Cards';
 
