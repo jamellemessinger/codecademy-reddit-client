@@ -5,7 +5,7 @@ export default function NavToBottom() {
   return (
     <div className={css.navToBottom}>
       <a href="#bottom">
-        <div>To bottom</div>
+        <div>End</div>
       </a>
     </div>
   );

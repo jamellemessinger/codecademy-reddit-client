@@ -1,11 +1,12 @@
 .navToTop {
   position: fixed;
-  bottom: 4rem;
+  bottom: 3.5rem;
   right: 2rem;
   z-index: 10;
   background-color: lightcoral;
-  border-radius: 50% 50% 0 0;
-  width: 3rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
 }
 
 .navToBottom {
@@ -14,7 +15,7 @@
   right: 2rem;
   z-index: 10;
   background-color: lightcoral;
-  border-radius: 0 0 50% 50%;
-  width: 3rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
 }
-

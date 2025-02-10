@@ -5,7 +5,7 @@ export default function NavToTop() {
   return (
     <div className={css.navToTop}>
       <a href="#top">
-        <div>Back to top</div>
+        <div>Home</div>
       </a>
     </div>
   );
