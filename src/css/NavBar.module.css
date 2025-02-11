@@ -27,3 +27,11 @@ h1 {
 span {
   color: lightcoral;
 }
+
+button {
+  width: 1.5rem;
+  background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
