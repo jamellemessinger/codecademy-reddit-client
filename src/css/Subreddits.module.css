@@ -1,12 +1,3 @@
-ul {
-  list-style: none;
-  padding: 1rem;
-}
-
-li {
-  padding: 0.5rem;
-}
-
 .subreddits {
   padding: 1rem;
   background-color: white;

@@ -1,6 +1,46 @@
+a {
+  text-decoration: none;
+}
 
+a:link {
+  color: lightcoral;
+}
+a:visited {
+  color: lightcoral;
+}
+a:hover {
+  color: gray;
+}
+a:active {
+  color: lightcoral;
+}
 
-@media screen and (min-width:851px) {
+h1 {
+  font-size: 1.5rem;
+}
+
+span {
+  color: lightcoral;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 851px) {
   .container {
     display: flex;
     justify-content: space-between;

@@ -19,19 +19,3 @@
   align-items: center;
   gap: 0.5rem;
 }
-
-h1 {
-  font-size: 1.5rem;
-}
-
-span {
-  color: lightcoral;
-}
-
-button {
-  width: 1.5rem;
-  background: none;
-    border: none;
-    outline: none;
-    box-shadow: none;
-}
