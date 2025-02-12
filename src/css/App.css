@@ -16,7 +16,7 @@ a:active {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 span {
@@ -28,7 +28,6 @@ button {
   border: none;
   outline: none;
   box-shadow: none;
-  width: 1.5rem;
 }
 
 ul {
@@ -38,6 +37,12 @@ ul {
 
 li {
   padding: 0.5rem;
+}
+
+p, h1, h2, h3 {
+  word-break: break-word;
+  white-space: normal;
+  min-width: 0;
 }
 
 @media screen and (min-width: 851px) {

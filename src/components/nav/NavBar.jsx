@@ -12,7 +12,7 @@ export default function NavBar() {
       </div>
       <div className={css.search}>
         <input type="text" placeholder="Search" />
-        <button>
+        <button className={css.icon}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

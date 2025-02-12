@@ -13,12 +13,12 @@ export default function Card({ postData }) {
   return (
     <div className={css.card}>
       <div className={css.karma}>
-        <button>
+        <button className={css.icon}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            strokeWidth={1.5}
+            strokeWidth={1}
             stroke="currentColor"
             className="size-6"
           >
@@ -30,12 +30,12 @@ export default function Card({ postData }) {
           </svg>
         </button>
         <p>{score}</p>
-        <button>
+        <button className={css.icon}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            strokeWidth={1.5}
+            strokeWidth={1}
             stroke="currentColor"
             className="size-6"
           >
@@ -54,8 +54,6 @@ export default function Card({ postData }) {
           </a>
           <img
             src={url}
-            width="100%"
-            height={'auto'}
             alt="users posted content"
           />
         </div>

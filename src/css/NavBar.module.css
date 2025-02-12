@@ -18,4 +18,17 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  width: 15rem;
+}
+
+.icon {
+  width: 1.5rem;
+}
+
+.search input {
+  width: 70%;
+  padding: 0.5rem;
+  border: 1px solid lightcoral;
+  border-radius: 5px;
+  outline: none;
 }
